@@ -4,8 +4,8 @@ const line = require('@line/bot-sdk');
 const app = express();
 
 const config = {
-  channelAccessToken: '你的完整 Channel Access Token（一次貼全，不要斷行）',
-  channelSecret: '你的完整 Channel Secret'
+  channelAccessToken: 'VOnQ+bByMpH4KP8JFxyP74PXnxis3myd/JL2FgKLIu4pbbPS7r8p0dUgBU9yFM7P6fip9Z2ADU2nBDO6LoLbmdsHGrjL8w7cK+wYOPizJmUyzYwSWUMWmAErK1fKn5v7eyi1KR0Ug50w2JE8/yWj3QdB04t89/1O/w1cDnyilFU=',
+  channelSecret: '91d67b826bfd6f59fc97180c2a836464'
 };
 
 const client = new line.Client(config);
